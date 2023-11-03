@@ -1,0 +1,64 @@
+{
+    "name": "monochrome",
+    "short_name": "mono",
+    "start_url": "/",
+    "display": "standalone",
+    "description": "monochromeアイコンのテスト",
+    "lang": "ja",
+    "dir": "auto",
+    "theme_color": "#463a61",
+    "background_color": "#463a61",
+    "scope": "/",
+    "id": "monochrome",
+    "display_override": [
+        "window-controls-overlay"
+    ],
+    "url_handlers": {
+        "origin": "https://monochrome-icon-on-pwa.vercel.app/"
+    },
+    "launch_handler": {
+        "client_mode": "focus-existing"
+    },
+    "icons": [
+        {
+            "src": "/icon-m-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon-m-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icon-m-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icon-m-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icon-n-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "monochrome"
+        },
+        {
+            "src": "/icon-n-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "monochrome"
+        }
+    ],
+    "prefer_related_applications": false,
+    "categories": [
+        "lifestyle"
+    ]
+}

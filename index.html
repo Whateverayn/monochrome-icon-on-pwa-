@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+<head prefix="og: https://ogp.me/ns#">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", interactive-widget=resizes-content">
     <title>monochrome</title>
+    <meta name="description" content="description">
+    <meta property="og:site_name" content="og:site_name" />
+    <meta property="og:title" content="og:title" />
+    <meta property="og:description" content="og:description" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://monochrome-icon-on-pwa.vercel.app/" />
+    <meta property="og:image" content="https://monochrome-icon-on-pwa.vercel.app/icon-m-512.png" />
+    <meta name="twitter:card" content="Summary Card" />
+    <meta name="theme-color" content="#463a61">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/icon-n-180.png">
+    <script>navigator.serviceWorker.register("/service-worker.js")</script>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>monochrome</h1>
+    <div id="title">
+        <h1>Monochrome</h1>
+    </div>
+    <div id="install_d" data-sw="e">
+        <button id="install">Install</button>
+        <div id="sunglasses">
+            <div class="emoji">😎</div>
+        </div>
+    </div>
+    <script src="./m.js"></script>
 </body>
 </html>
